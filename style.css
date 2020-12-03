@@ -1,0 +1,269 @@
+/*-=-=-= Google Form-=-=-=-*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@300&display=swap');
+/* Font Family 
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+/*Common CSS*/
+body{
+	background-color: #636e72;
+	font-family: 'Lato', sans-serif;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.strict-about-title{
+	text-align: center;
+	padding-bottom: 30px;
+}
+.strict-about-title h2{
+	color: #2d3950;
+	font-size: 35px;
+}
+p{
+	color: #999999;
+	font-size: 15px;
+}
+
+/* Header*/
+.strict-header{
+	background-color: #FFFFFF;
+	padding: 15px 0;
+}
+.menu{
+
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.menu ul li a{
+	color: #454444;
+	padding: 5px 20px;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 700;
+	transition: .5s;
+
+}
+.menu ul li a:hover{
+	background-color: #15a4fa;
+	border-radius: 5px;
+}
+/* banner CSS*/
+.strict-banner{
+	background-image: url('img/banner2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 100px 0 15px;
+}
+.strict-banner-text{
+	
+}
+.strict-banner-text h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 600;
+	padding-bottom: 30px;
+	}
+.strict-banner-text span{
+	color: #fff;
+	border-top:1px solid #15a4fa;
+	display:inline-block; 
+	padding: 30px 20px 0;
+}
+.strict-banner-button{
+	padding: 65px 0;
+	
+}
+.strict-banner-button a{
+	color: #fff;
+	border:1px solid #15a4fa;
+	padding: 10px 25px;
+	border-radius: 3px;
+	text-decoration: none;
+	transition: .5s;
+}
+.strict-banner-button a:hover{
+	background-color: #15a4fa;
+}
+.strict-banner-button i{
+	color: #fff;
+	display:block;
+	margin-top: 100px;
+}
+/*--About CSS--*/
+.strict-about{
+	background-color: #f6f9f9;
+	padding: 80px 0;
+	text-align: center;
+}
+.strict-about p{
+	font-size: 20px;
+
+}
+/* Services CSS*/
+.strict-service{
+	background-color: #FFFFFF;
+	padding: 80px 0;
+}
+.strict-service-content{
+	text-align: center;
+}
+.strict-service-icon{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	background: linear-gradient( to right, #48baff 50%, #5fc3ff 50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;	
+}
+.strict-service-icon i{
+	font-size: 25px;
+	color: #FFFFFF;	
+}
+.strict-service-text{}
+.strict-service-text h4{
+	font-size: 22px;
+}
+.strict-service-text p{}
+
+
+/*---Portfolio CSS---*/
+.strict-portfolio{
+	background-color: #f6f9f9;
+	padding: 80px 0;
+
+}
+.strict-portfolio-img{
+	position: relative;
+	margin: 30px 20px;
+}
+.strict-portfolio-overlay{
+	background-color: rgba(21,164,250,0.8);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: .5s;
+}
+.strict-portfolio-overlay ul{
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.strict-portfolio-overlay ul li{
+	color: #fff;
+	border: 1px solid #fff;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin: 0px 3px;
+}
+
+.strict-portfolio-overlay ul li a{}
+	
+
+.strict-portfolio-img:hover .strict-portfolio-overlay{
+	opacity: .8;
+}
+/*------Contact CSS--*/
+.strict-contact{
+	background-image: url('img/7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.strict-contact-overlay{
+	background-color: rgba(45,57,80,.8);
+}
+.strict-contact .strict-about-title h2{
+	color: #fff;
+}
+.strict-contact-form{}
+.strict-contact-form .form-group input,
+.strict-contact-form .form-group textarea{
+	background-color: transparent;
+	border: 1px solid #999999;
+}
+.strict-form-bottom{
+	overflow: hidden;
+}
+.strict-form-left{
+	float: left;
+}
+.strict-form-left input{
+	margin-right: 5px;
+}
+.strict-form-left label{
+	color: #fff;
+}
+.strict-form-right{
+	float: right; 
+}
+.strict-form-right input{
+	color: #fff;
+	border:1px solid #15a4fa;
+	background-color: transparent;
+	padding: 3px 20px;
+	transition: .5s;
+}
+.strict-form-right input:hover{
+	background-color: #15a4fa;
+}
+/*---Footer CSS----*/
+.srtict-footer{
+	background-color: #f6f9f9;
+	padding: 25px 0;
+	margin-bottom: 10px;
+	
+}
+.strict-footer-text{
+	padding: 10px 5px;
+	
+}
+.strict-footer-text p{
+	margin: 0;
+
+	
+}
+.strict-fotter-icon{
+	overflow: hidden;
+}
+.strict-fotter-icon ul{
+	float: right;
+	margin: 0;
+}
+.strict-fotter-icon ul li{
+	height: 35px;
+	width: 35px;
+	background-color: #15a4fa;
+	margin: 0 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.strict-fotter-icon ul li i{
+	color: #fff;	
+}
